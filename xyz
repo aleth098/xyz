@@ -1,4 +1,8 @@
-git clone https://github.com/aleth098/xyz
+steps for copy code into the GitHub
+
+create one folder -> open that folder terminal -> write the command line
+
+git clone https://github.com/aleth098/python
 
 write the command line in terminal for download
 
@@ -52,8 +56,6 @@ while True:
     if(ch==1):
         cid=int(input("Enter Cid = "))
         cname=input("Enter Cname = ")
-        '''model=input("Enter model = ")
-        year=input("Enter year = " )'''
         c.getDetails(cid,cname)
         
     elif(ch==2):
@@ -1981,8 +1983,8 @@ CREATE A DEMO DATABSE
   database vendor mysql or mysql8
 
 ->Properties in jdbc connection pools
-URL: jdbc:mysql://localhost:3306/dbname?characterEncoding=UTF-8
-url: jdbc:mysql://localhost:3306/dbname?characterEncoding=UTF-8
+URL: jdbc:mysql//localhost:3306/demo?characterEncoding=UTF-8
+url: jdbc:mysql//localhost:3306/demo?characterEncoding=UTF-8
 ServerName : localhost
 password : root
 user : root
@@ -1999,7 +2001,7 @@ databaseName : demo
 
 In ResourceApp->Source Packages -> new Entity class from database 
 
-jdbc/url : jdbc:mysql://localhost/3306/demo?characterEncoding=UTF-8
+jdbc/url : jdbc:mysql://localhost/3306/demo?characterEncoding=UTF-8 useSSL=false
 
 -------------persistence will be created in config file ------------
 in persistence comment exclude tag
@@ -2267,7 +2269,7 @@ then click next then after set the properties
 
 		|
 
-Url = jdbc:mysql://localhost:3306/dbname?characterEncoding=UTF-8
+URL = jdbc:mysql://localhost:3306/dbname?characterEncoding=UTF-8
 url: jdbc:mysql://localhost:3306/dbname?characterEncoding=UTF-8
 ServerName = localhost
 Password = root(phpMyAdmin no password)
@@ -2291,4 +2293,6 @@ JDBC Resources -> new(JNDI)
 JNDI Name = jdbc/msa
 Pool Name = msa/pool (select pool you can create)
 then ok
+
+
 
