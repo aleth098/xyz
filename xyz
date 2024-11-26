@@ -1998,7 +1998,7 @@ databaseName : demo
 
 In ResourceApp->Source Packages -> new Entity class from database 
 
-jdbc/url : jdbc:mysql://localhost/3306/demo?useSSL=false
+jdbc/url : jdbc:mysql://localhost/3306/demo?characterEncoding=UTF-8
 
 -------------persistence will be created in config file ------------
 in persistence comment exclude tag
